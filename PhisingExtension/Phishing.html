@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phishing Page</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="content.js"></script>
+</head>
+<body>
+  <a href="http://www.google.com" onmouseover="window.status='http://www.hpe.com';" onmouseout="window.status='';">
+    <img src="Detective.png" alt="Detective Image">
+  </a>
+  <a href="http://www.google.com" onclick="location.href='http://www.hpe.com';return false;">
+    <img src="Detective.png" alt="Detective Image">
+  </a>
+</body>
+</html>
